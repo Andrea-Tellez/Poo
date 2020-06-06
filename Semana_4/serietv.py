@@ -1,4 +1,4 @@
-class serieTV:
+class SerieTV:
   #Atributos 
   es_transmitida_en_dispositivos_tecnologicos="si"
   es_dirigida_a_un_publico_especifico="si"
@@ -9,15 +9,15 @@ class serieTV:
   #Metodos
   def entretenimiento(self):
     print("entretenimiento")
-  def enrriquecimiento_de_conocimientos(self):
+  def enrriquecimientodeConocimientos(self):
     print("enrriquecimiento de conocimientos")
 
   def __init__(self):
     print:("metodos serieTV")
 
-class serietvamazon(serieTV):
+class SerietvAmazon(SerieTV):
   #Atributos
-  tiene_una_Tematica="amor."
+  tiene_una_tematica="amor."
   horario_de_transmision="4pm"
   cuenta_con_un_presupuesto="si"
   tiene_un_objetivo="si"
@@ -26,33 +26,40 @@ class serietvamazon(serieTV):
   #Metodos
   def diversion(self):
     print("diversion")
-  def desata_emociones(self):
+  def desataEmociones(self):
     print("desata emociones")
+  def entretenimiento(self):
+    print("entretenimiento durante un periodo")
+  def enrriquecimientodeConocimientos(self):
+    print("enrriquecimiento de conocimientos si se trata de algun documental")
+
 
   def __init__(self):
     print("serie de amazon")
 
-objeto=serieTV()
-objeto.entretenimiento()
-objeto.enrriquecimiento_de_conocimientos()
-print(objeto.es_transmitida_en_dispositivos_tecnologicos)
-print(objeto.es_dirigida_a_un_publico_especifico)
-print(objeto.tiene_una_duracion)
-print(objeto.es_una_obra_audiovisual)
-print(objeto.tiene_episodios)
 
-objeto_una_serie = serietvamazon()
-objeto_una_serie.entretenimiento()
-objeto_una_serie.enrriquecimiento_de_conocimientos()
-objeto_una_serie.diversion()
-objeto_una_serie.desata_emociones()
-print(objeto_una_serie.es_transmitida_en_dispositivos_tecnologicos)
-print(objeto_una_serie.es_dirigida_a_un_publico_especifico)
-print(objeto_una_serie.tiene_una_duracion)
-print(objeto_una_serie.es_una_obra_audiovisual)
-print(objeto_una_serie.tiene_episodios)
-print(objeto_una_serie.tiene_una_Tematica)
-print(objeto_una_serie.horario_de_transmision)
-print(objeto_una_serie.cuenta_con_un_presupuesto)
-print(objeto_una_serie.tiene_un_objetivo)
-print(objeto_una_serie.calidad)
+
+OBJETO=SerieTV()
+OBJETO.entretenimiento()
+OBJETO.enrriquecimientodeConocimientos()
+print(OBJETO.es_transmitida_en_dispositivos_tecnologicos)
+print(OBJETO.es_dirigida_a_un_publico_especifico)
+print(OBJETO.tiene_una_duracion)
+print(OBJETO.es_una_obra_audiovisual)
+print(OBJETO.tiene_episodios)
+
+OBJETO_UNA_SERIE = SerietvAmazon()
+OBJETO_UNA_SERIE.entretenimiento()
+OBJETO_UNA_SERIE.enrriquecimientodeConocimientos()
+OBJETO_UNA_SERIE.diversion()
+OBJETO_UNA_SERIE.desataEmociones()
+print(OBJETO_UNA_SERIE.es_transmitida_en_dispositivos_tecnologicos)
+print(OBJETO_UNA_SERIE.es_dirigida_a_un_publico_especifico)
+print(OBJETO_UNA_SERIE.tiene_una_duracion)
+print(OBJETO_UNA_SERIE.es_una_obra_audiovisual)
+print(OBJETO_UNA_SERIE.tiene_episodios)
+print(OBJETO_UNA_SERIE.tiene_una_tematica)
+print(OBJETO_UNA_SERIE.horario_de_transmision)
+print(OBJETO_UNA_SERIE.cuenta_con_un_presupuesto)
+print(OBJETO_UNA_SERIE.tiene_un_objetivo)
+print(OBJETO_UNA_SERIE.calidad)
