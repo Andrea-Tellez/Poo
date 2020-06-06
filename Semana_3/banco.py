@@ -9,7 +9,7 @@ class Banco:
   horario="9:00 a 19:30 horas"
   color="amarillo"
   servicios="retiros,prestamos, pagos de servicios "
-  direccion="cualquier tiend coppel"
+  direccion="cualquier tienda coppel"
   estacionamiento="planta baja"
 
   #Metodos
