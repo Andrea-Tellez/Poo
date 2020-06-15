@@ -1,6 +1,6 @@
 while True:   
-    cadena = input("hola mundo")   #es la entrada de texto
-    for caracter in cadena: #lee el texto de los caracteres
+    cadena = input("Ingresa la cadena a analizar:")   #cadena de texto
+    for caracter in cadena: 
         print('"{}"'.format(caracter)) #imprime cada caracter 
         if caracter.isalpha():  #analiza si es letra
             print("letra") #imprime el resultado
